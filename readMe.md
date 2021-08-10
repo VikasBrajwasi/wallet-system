@@ -22,6 +22,7 @@ Request Body:-
 }
 
 Expected Response:- (Status 200)
+
 {
     "id": "{Created_ID}",
     "balance": 100,
@@ -37,6 +38,7 @@ URL:- http://localhost:3000/wallet/{id_of_wallet}
 Method: GET
 
 Expected Response:- (Status 200)
+
 {
     "id": "{id_of_wallet}",
     "balance": 100,
@@ -61,6 +63,7 @@ Request Body:-
 }
 
 Expected Response:- (Status 200)
+
 {
     "balance": 110,
     "transactionId": "{trasaction_ID}"
@@ -74,6 +77,7 @@ URL:- http://localhost:3000/transactions?walletId={wallet_id}&skip=2&limit=1
 Method: GET
 
 Expected Response:- (Status 200)
+
 [
     {
         "id": "{transaction_id}",
